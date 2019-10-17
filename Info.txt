@@ -1,0 +1,12 @@
+Alumno : Daniel Fimiani
+Turno - Meteria: DWTN1A Diseño de Interfaces 
+Docente: Florencia Steffano
+
+TP3 / Final Diseño Web Pagina Barrial. 
+
+Barrio : Saavedra .
+Pagina a rediseñar : https://www.saavedraonline.com.ar/
+
+Fuentes: 
+
+Wikiperida : https://es.wikipedia.org/wiki/Parque_Saavedra
