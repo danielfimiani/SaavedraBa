@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background: gainsboro;
+    display: flex;
+    justify-content: space-around;  
+    height: 50px;
+}
+
+header h1,p{
+    color: white;
+    font-size: 25px;
+}
+header span{
+    color: brown;
+}
+
