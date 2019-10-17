@@ -7,9 +7,16 @@
 
 header {
     background: gainsboro;
-    display: flex;
-    justify-content: space-around;  
     height: 50px;
+}
+
+header div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;  
+    max-width: 1024px;
+    margin: auto;
+    height: 100%;
 }
 
 header h1,p{
