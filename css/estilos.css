@@ -22,9 +22,15 @@ header div {
 header h1,p{
     color: white;
     font-size: 25px;
+    text-align: center;
+    margin: auto;
 }
 header span{
     color: brown;
+}
+
+header p {
+    display: none;
 }
 
 nav {
@@ -64,7 +70,10 @@ footer div ul li a img {
     width: 25px;
 }
 
-footer div:last-child {
+footer p:last-child{
     background: #000;
     width: 100%;
+    text-align: center;
+    font-size: 8px;
 }
+
