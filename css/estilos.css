@@ -163,11 +163,11 @@ header p {
 	display: none;
 }
 
-#historia h2 {
+#home h2 {
 	display: none;
 }
 
-#historia p {
+#home p {
 	color: black;
 	font-size: 16px;
 	text-align: justify;
@@ -175,13 +175,35 @@ header p {
 	margin: 0 0 50px;
 }
 
-#historia p span {
+#home p span {
 	color: #634621;
 }
 
-#historia img {
-	padding: 25px;
+#home img {
 	margin: auto;
+	width: 100%;
+	padding: 20px;
+	margin: 0 0 50px;
+}
+
+#historia {
+	background: #74685a;
+}
+
+#historia img {
+	width: 100%;
+}
+
+#historia h2 {
+	margin-top: 30px;
+	color: white;
+	text-align: center;
+}
+
+#historia p {
+	font-size: 14px;
+	text-align: justify;
+	padding: 25px;
 }
 
 footer {
@@ -196,6 +218,7 @@ footer div {
 
 footer div ul li a img {
 	width: 25px;
+	z-index: 3;
 }
 
 footer span {
