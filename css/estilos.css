@@ -125,7 +125,7 @@ a:hover {
 #menu {
 	position: absolute;
 	width: 300px;
-	margin: -33px 0 0 -10px;
+	margin: -33px 0 0 -13px;
 	padding: 50px;
 	padding-top: 125px;
 
@@ -156,20 +156,32 @@ a:hover {
 body div img {
 	width: 100%;
 	padding: 20px;
-	margin: 80px 0 80px;
+	margin: 80px 0 50px;
 }
 
 header p {
 	display: none;
 }
 
-nav ul li a {
-	text-decoration: none;
-	color: black;
+#historia h2 {
+	display: none;
 }
 
-nav ul li a:hover {
+#historia p {
+	color: black;
+	font-size: 16px;
+	text-align: justify;
+	padding: 25px;
+	margin: 0 0 50px;
+}
+
+#historia p span {
 	color: #634621;
+}
+
+#historia img {
+	padding: 25px;
+	margin: auto;
 }
 
 footer {
