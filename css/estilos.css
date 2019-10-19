@@ -173,6 +173,7 @@ header p {
 	text-align: justify;
 	padding: 25px;
 	margin: 0 0 50px;
+	line-height: 1.5em;
 }
 
 #home p span {
@@ -204,6 +205,7 @@ header p {
 	font-size: 12px;
 	text-align: justify;
 	padding: 25px;
+	line-height: 1.5em;
 }
 
 #mapa h2 {
@@ -223,6 +225,7 @@ header p {
 	height: 100%;
 	width: 100%;
 	position: absolute;
+	--pointer-events: none;
 }
 
 footer {
@@ -237,7 +240,6 @@ footer div {
 
 footer div ul li a img {
 	width: 25px;
-	z-index: 3;
 }
 
 footer span {
