@@ -201,9 +201,28 @@ header p {
 }
 
 #historia p {
-	font-size: 14px;
+	font-size: 12px;
 	text-align: justify;
 	padding: 25px;
+}
+
+#mapa h2 {
+	display: none;
+}
+
+#mapa div {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+#mapa div iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 footer {
