@@ -153,17 +153,14 @@ a:hover {
 }
 /**/
 
-body img {
+body div img {
 	width: 100%;
 	padding: 20px;
+	margin: 80px 0 80px;
 }
 
 header p {
 	display: none;
-}
-
-nav {
-	height: 80px;
 }
 
 nav ul li a {
@@ -187,7 +184,6 @@ footer div {
 
 footer div ul li a img {
 	width: 25px;
-	color: #634621;
 }
 
 footer span {
