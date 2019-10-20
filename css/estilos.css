@@ -10,11 +10,18 @@ header {
 	height: 50px;
 }
 
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
 header div {
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
-	max-width: 1024px;
 	margin: auto;
 	height: 100%;
 }
@@ -124,7 +131,6 @@ a:hover {
  */
 #menu {
 	position: absolute;
-	width: 300px;
 	margin: -33px 0 0 -13px;
 	padding: 50px;
 	padding-top: 125px;
@@ -225,7 +231,7 @@ header p {
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	--pointer-events: none;
+	border: 0;
 }
 
 footer {
@@ -233,13 +239,50 @@ footer {
 }
 
 footer div {
-	max-width: 1024px;
 	margin: auto;
 	text-align: center;
 }
 
 footer div ul li a img {
 	width: 25px;
+}
+
+#redes {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#redes li {
+	height: 30px;
+	width: 30px;
+}
+
+#redes li a {
+	display: block;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+#redes li:nth-child(1) a {
+	background-image: url(../src/img/Footer/Iconos/Facebook.svg);
+}
+
+#redes li:nth-child(2) a {
+	background-image: url(../src/img/Footer/Iconos/Twitter.svg);
+}
+
+#redes li:nth-child(3) a {
+	background-image: url(../src/img/Footer/Iconos/Instagram.svg);
+}
+
+#redes li:nth-child(4) a {
+	background-image: url(../src/img/Footer/Iconos/YouTube.svg);
+}
+
+#redes li:nth-child(5) a {
+	background-image: url(../src/img/Footer/Iconos/WhatsApp.svg);
 }
 
 footer span {
