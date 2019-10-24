@@ -243,7 +243,12 @@ footer div {
 	text-align: center;
 }
 
-footer p:nth-child(1){
+footer img {
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+footer p:nth-child(2){
     font-size: 20px;
     margin-bottom: 20px;
 }
@@ -256,8 +261,8 @@ footer p:nth-child(1){
 }
 
 #redes li {
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 }
 
 #redes li a {
@@ -288,7 +293,7 @@ footer p:nth-child(1){
 	background-image: url(../src/img/Footer/Iconos/WhatsApp.svg);
 }
 
-footer ul:nth-child(3) {
+footer ul:nth-child(4) {
     display: flex;
     width: 100%;
     margin-bottom: 20px;
@@ -296,20 +301,34 @@ footer ul:nth-child(3) {
     justify-content: space-between;
 }
 
-footer ul:nth-child(3) li{
+footer ul:nth-child(4) li{
     width: 50%;
+}
+
+footer ul:nth-child(4) li a{
     color: white;
 }
 
-footer ul:nth-child(3) li a{
-    color: white;
-}
 footer span {
 	color: #634621;
 }
 
 form {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+form input {
+    border: none;
+    height: 30px;
+    padding: 3px;
+}
+
+form input:nth-child(2) {
+    color: white;
+    background: #634621;
 }
 
 footer p:last-child {
