@@ -203,7 +203,7 @@ header p {
 }
 
 #historia p {
-	font-size: 12px;
+	font-size: 16px;
 	text-align: justify;
 	padding: 25px;
 	line-height: 1.5em;
@@ -337,6 +337,11 @@ form input {
     border: none;
     height: 30px;
     padding: 3px;
+}
+
+form input:nth-child(1) {
+    width: 100%;
+    margin-right: 5px;
 }
 
 form input:nth-child(2) {
