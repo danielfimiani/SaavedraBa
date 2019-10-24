@@ -239,18 +239,23 @@ footer {
 }
 
 footer div {
-	margin: auto;
-	text-align: center;
+    margin-bottom: 20px;
+    display: flex;
 }
 
-footer img {
+footer div img {
     width: 50%;
-    margin-bottom: 25px;
+    padding: 0;
+    margin: 0;
 }
 
 footer p:nth-child(2){
     font-size: 28px;
     margin-bottom: 20px;
+}
+
+footer ul {
+    width: 100%;
 }
 
 #redes {
