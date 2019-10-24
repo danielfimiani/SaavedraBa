@@ -236,24 +236,27 @@ footer {
     padding: 25px ;
 }
 
-footer div div {
-    margin-bottom: 20px;
+footer div {
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-footer div img {
+footer div img:nth-child(1) {
     width: 50%;
     padding: 0;
     margin: 0;
+    border-right: 1.5px solid #666;
 }
 
 footer p:nth-child(2){
     font-size: 28px;
-    margin-bottom: 20px;
+    width: 50%;
 }
 
-footer ul {
+footer ul:nth-child(3) {
     width: 100%;
+    margin-top: 30px
 }
 
 #redes {
@@ -299,7 +302,7 @@ footer ul {
 footer ul:nth-child(4) {
     display: flex;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -341,10 +344,11 @@ form input:nth-child(2) {
     background: #634621;
 }
 
-footer p:last-child {
-	background: #000;
-    font-size: 10px;
-    margin: auto;
+footer img:last-child {
+    padding: 35px;
+    margin: 0;
+    border-top: 1.3px solid #666;
+    margin-top: 35px;
 }
 
 @media screen and (min-width: 768px) {
