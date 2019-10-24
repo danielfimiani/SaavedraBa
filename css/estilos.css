@@ -36,10 +36,6 @@ header span {
 	color: #634621;
 }
 
-a:hover {
-	color: #634621;
-}
-
 /*Nav Bar*/
 #menuToggle {
 	display: block;
@@ -233,12 +229,14 @@ header p {
 	border: 0;
 }
 
+/*Inicio footer*/
+
 footer {
     background: #202020;
-    padding: 25px 25px 0px 25px;
+    padding: 25px ;
 }
 
-footer div {
+footer div div {
     margin-bottom: 20px;
     display: flex;
 }
@@ -325,11 +323,11 @@ footer span {
 	color: #634621;
 }
 
+/*FORM*/
 form {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
 }
 
 form input {
@@ -347,4 +345,148 @@ footer p:last-child {
 	background: #000;
     font-size: 10px;
     margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    body div, section{
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    section {
+        max-width: 1024px;
+    }
+    
+    header p {
+        display: inline-block;
+    }
+
+    body div img {
+        padding: 0;
+    }
+
+    #menuToggle {
+        position: initial;
+        top: initial;
+        left: initial;
+        z-index: initial;
+        max-width: 1024px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #menuToggle span , #menuToggle input{
+        display: none;
+    }
+    
+    #menu {
+        position: initial;
+        margin: initial;
+        padding: initial;
+        transform: initial;
+        transform-origin: initial;
+        background: none;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #menu li a {
+        color: #000;
+    }
+
+    #menu li a:hover{
+        background: #634621;
+        color: white;
+    }
+
+    header div {
+        margin: auto;
+        max-width: 1024px;
+    }
+
+    header h1 , p {
+        margin: initial;
+        font-size: 30px;
+    }
+
+    body div {
+        margin: auto;
+    }
+
+    #home {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    #home p , #home img{
+        width: 45%;
+        padding: 0;
+        font-size: 20px;
+    }
+
+    #historia {
+        max-width: none;
+    }
+
+    #historia div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #historia h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    #historia p {
+        width: 50%;
+        margin: 0;
+        font-size: 23px;
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #historia  p:nth-child(2) {
+        padding-right: 15px;
+    }
+
+    #historia  p:nth-child(3) {
+        padding-left: 15px;
+    }
+
+    #mapa div{
+        max-width: none;
+    }
+
+    #mapa div iframe {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer div{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    footer div div , footer div p ,#redes{
+        width: 30%
+    }
+
+    footer div div img {
+        width: 50%;
+    }
+
+    footer ul:nth-child(4) {
+        flex-direction: row;
+    }
+
+    footer ul:nth-child(4) li{
+        width: initial;
+    }
 }
