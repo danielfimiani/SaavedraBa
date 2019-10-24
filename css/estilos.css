@@ -234,6 +234,7 @@ header p {
 footer {
     background: #202020;
     padding: 25px ;
+    padding-bottom: 0;
 }
 
 footer div {
