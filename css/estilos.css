@@ -244,12 +244,12 @@ footer div {
 }
 
 footer img {
-    margin: auto;
+    width: 50%;
     margin-bottom: 25px;
 }
 
 footer p:nth-child(2){
-    font-size: 20px;
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
@@ -303,10 +303,17 @@ footer ul:nth-child(4) {
 
 footer ul:nth-child(4) li{
     width: 50%;
+    margin-bottom: 4px;
 }
 
 footer ul:nth-child(4) li a{
     color: white;
+}
+
+footer ul:nth-child(4) li ul li {
+    color: gainsboro;
+    font-size: 11px;
+    width: 100%
 }
 
 footer span {
