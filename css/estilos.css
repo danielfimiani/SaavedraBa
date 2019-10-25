@@ -369,6 +369,8 @@ footer img:last-child {
 /*TITULARES HTHML*/
 #noticias {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
 }
 #noticias h2 {
     display: none;
@@ -402,6 +404,13 @@ article p span {
 
 article p:last-child {
     color: grey;
+}
+
+#noticias a {
+    background: #634621;
+    color: white;
+    margin: auto;
+    padding: 5px;
 }
 
 @media screen and (min-width: 768px) {
