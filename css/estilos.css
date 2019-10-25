@@ -368,10 +368,10 @@ footer img:last-child {
 
 /*TITULARES HTHML*/
 #noticias {
-    padding: 15px;
     display: flex;
     flex-direction: column;
 }
+
 #noticias h2 {
     display: none;
 }
@@ -423,10 +423,13 @@ article p:last-child {
         margin: auto;
     }
 
+    header , nav , footer{
+        padding: 25px;
+    }
     section {
         max-width: 1024px;
     }
-    
+
     header p {
         display: inline-block;
     }
@@ -583,7 +586,6 @@ article p:last-child {
 
     /*Titulares para Escritorio*/
     #noticias {
-        padding: 0;
         margin-top: 70px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
