@@ -585,7 +585,12 @@ article p:last-child {
         grid-template-columns: repeat(2,1fr);
         grid-gap: 40px;
     }
-    
+
+    #noticias article:nth-child(2) img {
+        height: 100%;
+        width: auto;
+    }
+
     #noticias figure figcaption p:first-child{
         font-size: 12px;
     }
