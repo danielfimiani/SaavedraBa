@@ -127,10 +127,12 @@ header span {
 #menu {
 	position: absolute;
 	margin: -33px 0 0 -13px;
-	padding: 50px;
-	padding-top: 125px;
+	padding: 35px;
+	padding-top: 80px;
 
-	background: #d1d1d1;
+    width: 80vw;
+
+    background: #d1d1d1;
 	list-style-type: none;
 	-webkit-font-smoothing: antialiased;
 	/* to stop flickering of text in safari */
@@ -138,12 +140,20 @@ header span {
 	transform-origin: 0% 0%;
 	transform: translate(-100%, 0);
 
-	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
 #menu li {
 	padding: 10px 0;
-	font-size: 22px;
+    font-size: 22px;
+}
+
+#menu li a {
+    color: white;
+}
+
+#menu li a:hover{
+    color: #634621;
 }
 
 /*
@@ -230,7 +240,6 @@ header p {
 }
 
 /*Inicio footer*/
-
 footer {
     background: #202020;
     padding: 25px ;
@@ -251,7 +260,7 @@ footer div img:nth-child(1) {
 }
 
 footer p:nth-child(2){
-    font-size: 28px;
+    font-size: 26px;
     width: 50%;
 }
 
@@ -352,7 +361,7 @@ form input:nth-child(2) {
 
 footer img:last-child {
     padding: 35px;
-    margin: 0;
+    margin: auto;
     border-top: 1.3px solid #666;
     margin-top: 35px;
 }
@@ -481,22 +490,43 @@ footer img:last-child {
     footer div{
         display: flex;
         flex-wrap: wrap;
-        align-content: center;
+        justify-content: space-between;
+        align-content: stretch;
+    }
+    
+
+    footer div img, footer div p ,#redes{
+        width: 33% !important;
+        margin-bottom: 40px !important;
     }
 
-    footer div div , footer div p ,#redes{
-        width: 30%
+    footer div p {
+        font-size: 30px !important;
     }
 
-    footer div div img {
-        width: 50%;
+    footer div img{
+        padding-right: 30px !important;
     }
 
     footer ul:nth-child(4) {
         flex-direction: row;
+        width: 60%;
     }
 
     footer ul:nth-child(4) li{
         width: initial;
+    }
+
+    footer form {
+        width: 35%;
+    }
+
+    footer img:last-child{
+        padding: 0;
+        padding-right: 0 !important;
+    }
+
+    #redes {
+        margin: initial;
     }
 }
